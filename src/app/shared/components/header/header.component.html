@@ -1,0 +1,36 @@
+<mat-toolbar color="light">
+    <mat-toolbar-row>
+        <button mat-icon-button (click)="toggleSideBar()">
+            <mat-icon>menu</mat-icon>
+        </button>
+
+        <span></span>
+
+        <div fxFlex fxLayout="row" fxLayoutAlign="flex-end">
+            <ul fxLayout="row" fxLayoutGap="1px">
+                <li>
+                    <button mat-icon-button>
+                        <mat-icon color="primary">person_pin</mat-icon>
+                    </button>
+                </li>
+                <li>
+                    <button mat-button [matMenuTriggerFor]="menu">
+                        <mat-icon color="primary">settings</mat-icon>
+                    </button>
+                    <mat-menu #menu="matMenu" >
+                        <button mat-menu-item [routerLink]="['/dashboard']" [routerLinkActive]="['is-active']">
+                            <mat-icon >lock_open</mat-icon>
+                            Change Password
+                        </button>
+                        <button mat-menu-item [routerLink]="['/posts']" [routerLinkActive]="['is-active']">
+                            <mat-icon>exit_to_app</mat-icon>
+                            Sign out
+                        </button>
+                    </mat-menu>
+                    
+
+                </li>
+            </ul>
+        </div>
+    </mat-toolbar-row>
+</mat-toolbar>

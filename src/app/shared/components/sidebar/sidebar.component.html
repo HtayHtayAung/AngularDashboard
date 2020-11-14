@@ -1,0 +1,29 @@
+<mat-nav-list>
+    <div class="profile-card">
+
+        <button color="warn" mat-fab aria-label="icon-button with a borkmark icon">
+            <mat-icon style="margin-right:2px;">bookmark</mat-icon>
+        </button>
+        <!-- <img src="src/assets/diamond.png" alt="Pictures"> -->
+        <div class="header">
+            <h4>Smart Reporter System</h4>
+        </div>
+    </div>
+
+    <mat-divider></mat-divider>
+
+    <!-- <span matSubheader>Main Contents</span> -->
+    <mat-list-item [routerLink]="['/dashboard']" [routerLinkActive]="['is-active']">
+        <mat-icon class="left_menu_icon left_menu_top">home</mat-icon>Dashboard
+    </mat-list-item>
+    <mat-list-item [routerLink]="['/team']" [routerLinkActive]="['is-active']">
+        <mat-icon class="left_menu_icon left_menu_top">supervised_user_circle</mat-icon>Team
+    </mat-list-item>
+    <mat-list-item [routerLink]="['/posts']" [routerLinkActive]="['is-active']">
+        <mat-icon class="left_menu_icon left_menu_top">local_printshop</mat-icon>Report
+    </mat-list-item>
+    <mat-list-item [routerLink]="['/logout']" [routerLinkActive]="['is-active']">
+        <mat-icon class="left_menu_icon left_menu_top">help_outline</mat-icon>Help
+    </mat-list-item>
+
+</mat-nav-list>
