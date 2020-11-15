@@ -1,10 +1,13 @@
 Can customized all in this source code
 =====================================
+  https://github.com/shwesinhtay111/AngularDashboardTemplate
+
+----------------------------------------------------------------------
 
 Or
 
 Auto Create Angular Material Dashboard Layout
-================================
+============================================
 1.create angular new project, ng new projectName
 
 2.cd projectName
@@ -24,3 +27,5 @@ Auto Create Angular Material Dashboard Layout
 ];
 
 9.In browser test as, localhost:4200/home
+
+------------------------------------------------------
