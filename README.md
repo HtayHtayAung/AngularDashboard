@@ -29,3 +29,4 @@ Auto Create Angular Material Dashboard Layout
 9.In browser test as, localhost:4200/home
 
 ------------------------------------------------------
+vscode-webview-resource://d288c92d-100b-4d19-91bf-1d6693b71455/file///d%3A/Angular%20Practice/angular-dashboard-layout/src/favicon.ico?version%3D1605440925683
