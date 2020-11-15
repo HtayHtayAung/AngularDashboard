@@ -5,9 +5,9 @@
     </mat-drawer>
     <mat-drawer-content>
         <app-header (toggleSideBarForMe)="sideBarToggler($event)"></app-header>
-        <mat-drawer-container style="padding: 20px;">
+        <div style="padding-left: 25px;">
             <router-outlet></router-outlet>
-        </mat-drawer-container>
+        </div>
     </mat-drawer-content>
 </mat-drawer-container>
 
